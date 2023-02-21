@@ -10,7 +10,6 @@ from copy import deepcopy
 
 
 # First some MPG Data Exploration
-@st.cache_data
 def load_data(path):
     df = pd.read_csv(path)
     return df
